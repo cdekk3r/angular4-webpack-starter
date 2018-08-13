@@ -1,7 +1,7 @@
 {
-  "name": "sample-app",
+  "name": "Weather-app",
   "version": "1.0.0",
-  "description": "EMV Certification website",
+  "description": "Weather",
   "repository": ".git/",
   "main": "index.js",
   "scripts": {
