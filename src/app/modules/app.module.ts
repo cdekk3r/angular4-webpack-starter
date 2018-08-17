@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 // Components
 import { AppComponent } from '../components/app.component';
 import { WeatherComponent } from '../components/weather/weather.component';
+import { SearchComponent } from '../components/search/search.component';
 
 // Routes
 const appRoutes : Routes = [
@@ -16,7 +17,8 @@ const appRoutes : Routes = [
 @NgModule({
   declarations: [
       AppComponent,
-      WeatherComponent],
+      WeatherComponent,
+      SearchComponent],
   imports: [
       BrowserModule,
       FormsModule,
