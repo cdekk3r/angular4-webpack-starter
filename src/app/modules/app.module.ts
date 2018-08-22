@@ -25,6 +25,7 @@ const appRoutes : Routes = [
       NgPipesModule,
       RouterModule.forRoot(appRoutes, {useHash: true})
     ],
+  providers: [],
   bootstrap: [
     AppComponent ]
 })
